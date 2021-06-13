@@ -5,3 +5,16 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function() {
+  $(".fade").click(function() {
+    $("#walrus-fade-in").fadeToggle();
+    $("#walrus-fade").fadeToggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".slide").click(function() {
+    $("#walrus-slide-up").slideToggle();
+    $("#walrus-slide-down").slideToggle();
+  });
+});
